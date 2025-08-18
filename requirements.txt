@@ -1,4 +1,4 @@
-pickle
+
 django
 numpy
 gunicorn
