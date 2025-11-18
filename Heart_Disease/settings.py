@@ -23,7 +23,8 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-3eldo&17jel$!@=l$*0wvtogtzme_=c@yj=_y@o&hrdv!6hnmk'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
+
 
 ALLOWED_HOSTS = ['*']
 
@@ -51,8 +52,6 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'Heart_Disease.urls'
-
-import os
 
 import os
 
@@ -129,4 +128,3 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
-
